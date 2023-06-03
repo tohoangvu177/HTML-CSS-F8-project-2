@@ -9,18 +9,18 @@
 
 @font-face {
     font-family: 'Sen';
-    src: url('sen/Sen-ExtraBold.woff2') format('woff2'),
-        url('sen/Sen-ExtraBold.woff') format('woff');
-    font-weight: bold;
+    src: url('sen/Sen-Regular.woff2') format('woff2'),
+        url('sen/Sen-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Sen';
-    src: url('sen/Sen-Regular.woff2') format('woff2'),
-        url('sen/Sen-Regular.woff') format('woff');
-    font-weight: normal;
+    src: url('sen/Sen-ExtraBold.woff2') format('woff2'),
+        url('sen/Sen-ExtraBold.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
