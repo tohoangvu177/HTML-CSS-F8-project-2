@@ -410,10 +410,12 @@ header.fixed {
     border: none;
 }
 
+/* @@ Use the Javascript to active transition*/
 .course-item .foot .course-btn:hover {
     color: var(--primary-color-1);
     background-color: var(--primary-color-2);
 }
+/*  Use the Javascript to active transition@@ */
 
 /* Feedback */
 .feedback {
@@ -432,8 +434,12 @@ header.fixed {
     justify-content: space-between;
     width: 100%;
     flex-shrink: 0;
+    /* @@Use the Javascript to active transition*/
+    transform: translateX(0%);
     transform: translateX(-100%);
+    transform: translateX(-200%);
     transition: all ease 0.3s;
+    /* Use the Javascript to active transition @@ */
 }
 
 .feedback .info .avatar {
@@ -488,4 +494,74 @@ header.fixed {
     font-size: 2.6rem;
     line-height: 1.54;
     color: #ffffff;
+}
+
+/* Features 1 */
+.features {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+    height: 438px;
+}
+
+.features .body .image {
+    display: flex;
+}
+
+.features .body .image {
+    gap: 0 30px;
+}
+
+.features .body .image img {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.features .body .image img:first-of-type {
+    margin-top: 34px;
+}
+
+.features .body .content {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.features .content .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.features .content .features-btn {
+    margin-top: 32px;
+    width: 137px;
+    color: #fff;
+    background: var(--primary-color-2);
+}
+
+/* Features 2 */
+.features-2 {
+    margin-top: 70px;
+}
+
+.features-2 .body {
+    flex-direction: row-reverse;
+}
+
+.features-2 .body .image img {
+    width: 470px;
+    height: 440px;
+}
+
+.features-2 .body .content {
+    width: 50%;
 }
